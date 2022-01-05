@@ -444,7 +444,7 @@ BADGES */
 .card {
   display: flex;
   height: 500px;
-  width: 500px;
+  width: 600px;
   background-color: #1e1e1e;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
@@ -485,7 +485,7 @@ BADGES */
 
 .bar {
   position: absolute;
-  top: 150px;
+  top: 190px;
   left: 20px;
   height: 5px;
   width: 150px;
@@ -676,10 +676,18 @@ display: -webkit-box;
     padding: 2rem 6rem;
   }
 
+  .bar {
+    top: 200px;
+  }
 
-  /* p{
-    font-size: 4rem;
-  } */
+ /* .card {
+    display: flex;
+    height: 500px;
+    max-width: 200px;
+    padding: 10rem 5rem;
+  }  */
+   
+
 
   .social-links{
     padding-left: 28%;
