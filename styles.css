@@ -434,17 +434,18 @@ BADGES */
 
 
 .container {
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   top: 60px;
   left: calc(50% - 300px);
   display: flex;
+  padding-bottom: 1rem;
 }
 
 .card {
   display: flex;
   height: 500px;
-  width: 600px;
+  min-width: 210px;
   background-color: #1e1e1e;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
@@ -680,12 +681,9 @@ display: -webkit-box;
     top: 200px;
   }
 
- /* .card {
-    display: flex;
-    height: 500px;
-    max-width: 200px;
-    padding: 10rem 5rem;
-  }  */
+  .container{
+    padding-bottom: 2rem;
+  }
    
 
 
