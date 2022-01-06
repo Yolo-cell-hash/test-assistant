@@ -440,6 +440,7 @@ BADGES */
   left: calc(50% - 300px);
   display: flex;
   padding-bottom: 1rem;
+  padding-left: 13.4rem;
 }
 
 .card {
@@ -683,6 +684,7 @@ display: -webkit-box;
 
   .container{
     padding-bottom: 2rem;
+    padding-left: 1rem;
   }
    
 
